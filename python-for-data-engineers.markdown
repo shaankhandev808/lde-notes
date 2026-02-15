@@ -31,3 +31,16 @@ print(age.show_me_my_age())
 # > 'Mr James, you are so young, only 39 years old!'
 ```
 
+**Modules** 
+
+Now let's use the class we created as a module in another Python script.
+
+```python
+# Import custom class (as module) and use it here.
+from my_classes import MyAge
+
+homer_age = MyAge("1975-01-01", "Homer Simpson")
+print(homer_age.show_me_my_age())
+# > 'Homer Simpson, you are so young, only 41 years old!'
+```
+
